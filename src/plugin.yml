@@ -1,3 +1,5 @@
 name: Pumpkin Diver
 main: com.afforess.bukkit.pumpkindiver.PumpkinDiver
-version: 0.11
+version: 0.12
+author: Afforess
+description: Pumpkin Diver allows deep-sea diving through a sophisticated pumpkin breathing apparatus.

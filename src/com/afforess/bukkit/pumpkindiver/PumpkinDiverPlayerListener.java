@@ -19,6 +19,10 @@ public class PumpkinDiverPlayerListener extends PlayerListener{
     }
 	
 	public static void doPumpkinDiver(final String name) {
+		if (PumpkinDiver.server.getPlayer(name) == null) {
+			players.remove(name);
+			return;
+		}
 		final int currentAir = PumpkinDiver.server.getPlayer(name).getRemainingAir();
 		final boolean wearingDivingHelmet = PumpkinDiver.server.getPlayer(name).getInventory().getHelmet().getTypeId() == Material.PUMPKIN.getId();
 		if (wearingDivingHelmet) {
