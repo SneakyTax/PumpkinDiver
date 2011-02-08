@@ -1,4 +1,4 @@
-package com.afforess.bukkit.pumpkindiver;
+package com.afforess.pumpkindiver;
 
 import java.util.ArrayList;
 

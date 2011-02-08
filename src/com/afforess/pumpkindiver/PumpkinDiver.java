@@ -1,4 +1,4 @@
-package com.afforess.bukkit.pumpkindiver;
+package com.afforess.pumpkindiver;
 import java.io.File;
 import java.util.logging.Logger;
 import org.bukkit.Server;
